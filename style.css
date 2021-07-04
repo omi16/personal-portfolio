@@ -11,14 +11,16 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 2%;
+    margin-left: 5%;
     
 }
 .half-width img{
-    width: 85%;
+    width: 80%;
     padding-top: 10%;
 }
 .link-button{
@@ -33,4 +35,13 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big-text{
+    padding-top: 150px;
+    padding-right: 2%;
+}
+.dream-big-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
